@@ -1,0 +1,32 @@
+.container {
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.title {
+   font-family: var(--second-family);
+   font-size: 36px;
+   line-height: 167%;
+   font-variant: small-caps;
+   color: #374a3d;
+}
+
+.text {
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 178%;
+   font-variant: small-caps;
+   color: #678570;
+}
+
+.button {
+   padding: 24px 32px;
+   border: 3px solid #0ca941;
+   border-radius: 100%;
+   display: flex;
+   align-items: center;
+   p {
+      margin-right: 7px;
+   }
+}
