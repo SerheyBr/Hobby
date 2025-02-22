@@ -1,3 +1,7 @@
+html,
+body {
+   height: 100%;
+}
 .container {
    max-width: 1170px;
    margin: 0 auto;
@@ -21,7 +25,7 @@
 }
 
 .button {
-   padding: 24px 32px;
+   padding: 21px 40px;
    border: 3px solid #0ca941;
    border-radius: 100%;
    display: flex;

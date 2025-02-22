@@ -1,0 +1,33 @@
+.professional {
+   margin-bottom: 88px;
+   &__wrapper {
+      display: flex;
+      align-items: flex-start;
+   }
+
+   &__img {
+      margin-right: 56px;
+   }
+
+   &__text-block {
+      position: relative;
+      max-width: 457px;
+      margin-top: 43px;
+   }
+
+   &__title {
+   }
+
+   &__text {
+      margin-bottom: 35px;
+   }
+
+   &__btn {
+   }
+
+   &__arrow {
+      position: absolute;
+      bottom: -10%;
+      left: 48%;
+   }
+}

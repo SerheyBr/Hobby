@@ -1,0 +1,49 @@
+.decororation-full {
+   position: absolute;
+   width: 100%;
+   min-height: 100%;
+   z-index: -1;
+   &__crlc-1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+   }
+   &__crlc-2 {
+      position: absolute;
+      top: 0;
+      right: 0;
+   }
+   &__crlc-3 {
+      position: absolute;
+      top: 10%;
+      left: 0;
+   }
+   &__crlc-4 {
+      position: absolute;
+      top: 18%;
+      left: 0;
+   }
+   &__crlc-5 {
+      position: absolute;
+      top: 60%;
+      right: 0;
+   }
+   &__crlc-6 {
+      position: absolute;
+      top: 70%;
+      left: 0;
+   }
+   &__crlc-7 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+   }
+   &__crlc-8 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+   }
+}
+section {
+   position: relative;
+}

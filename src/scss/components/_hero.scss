@@ -1,13 +1,13 @@
 .hero {
-   background-color: aqua;
+   position: relative;
+   overflow: hidden;
+   margin-bottom: 126px;
    &__wrapper {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: calc(100vh - 135px);
-      background-color: #374a3d;
+      height: calc(100vh - 129.2px);
    }
    &__text-block {
+      align-self: center;
       display: flex;
       flex-direction: column;
       flex: 1;
@@ -28,6 +28,7 @@
 
    &__subtitle {
       margin-bottom: 40px;
+      max-width: 534px;
       font-family: var(--font-family);
       font-weight: 500;
       font-size: 18px;
@@ -36,13 +37,45 @@
       color: #707070;
    }
 
+   &__img {
+      position: relative;
+      margin-right: -173px;
+      overflow: hidden;
+      align-self: end;
+      height: 708px;
+      margin-bottom: -22px;
+      img {
+         // width: 698px;
+         // height: 765px;
+      }
+   }
    &__btn {
       max-width: 180px;
    }
 
-   &__decore {
+   // &__decore {
+   //    position: absolute;
+   //    bottom: -10%;
+   //    left: 40%;
+   //    border-radius: 35px;
+   //    width: 168px;
+   //    height: 187px;
+   //    background-color: #b02424;
+   //    img {
+   //       position: absolute;
+   //       left: 18%;
+   //       top: -35%;
+   //    }
+   // }
+   &__decore-circle {
+      position: absolute;
+      top: 13%;
+      left: 18%;
+      z-index: -1;
    }
-
    &__arrow {
+      position: absolute;
+      bottom: 17.1%;
+      left: 28.3%;
    }
 }
